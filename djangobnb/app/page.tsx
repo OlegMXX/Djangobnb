@@ -1,10 +1,9 @@
-import Image from "next/image";
+import Categories from "./components/Categories";
 
 export default function Home() {
   return (
-      <main className="">
-        Это обычный текст без стиля
-        <h2 className="text-airbnb">Этот цвет здесь, потому что автопрефиксер работает</h2>
+      <main className="max-w-[1500px] mx-auto px-6">
+        <Categories/>
       </main>
   );
 }
